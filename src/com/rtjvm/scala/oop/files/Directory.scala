@@ -16,6 +16,7 @@ class Directory(override val parentPath: String, override val name: String, val 
 
   def replaceEntry(entryName: String, newEntry: DirEntry): Directory = ???
 
+  def asDirectory: Directory = this
 
 }
 
